@@ -123,7 +123,7 @@
         <p>Plan de Formación Ciudadana - Reporte Pedagógico</p>
     </header>
 
-    <form id="citizenshipForm">
+    <form action="https://formspree.io/f/xzdlzqrz">
         <div class="section-title">I. Identificación del Docente</div>
         <div class="form-group">
             <label>Nombre del Profesor/a:</label>
@@ -179,12 +179,7 @@
     </div>
 </div>
 
-<script>
-    document.getElementById('citizenshipForm').onsubmit = function(e) {
-        e.preventDefault();
-        alert('¡Registro generado con éxito! En una implementación real, estos datos se enviarían a su base de datos centralizada.');
-    };
-</script>
+
 
 </body>
 </html>
